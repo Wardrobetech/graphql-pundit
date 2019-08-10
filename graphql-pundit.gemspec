@@ -23,12 +23,12 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
 
   spec.add_dependency 'graphql', '>= 1.6.4', '< 1.10.0'
-  spec.add_dependency 'pundit', '~> 1.1.0'
+  spec.add_dependency 'pundit', '>= 1.1', '< 2.1'
 
-  spec.add_development_dependency 'bundler', '~> 1.14'
+  spec.add_development_dependency 'bundler', '~> 2.0'
   spec.add_development_dependency 'codecov', '~> 0.1.10'
   spec.add_development_dependency 'fuubar', '~> 2.3.0'
-  spec.add_development_dependency 'pry', '~> 0.11.0'
+  spec.add_development_dependency 'pry', '~> 0.12.2'
   spec.add_development_dependency 'pry-byebug', '~> 3.7.0'
   spec.add_development_dependency 'pry-rescue', '~> 1.4.4'
   spec.add_development_dependency 'pry-stack_explorer', '~> 0.4.9.2'
